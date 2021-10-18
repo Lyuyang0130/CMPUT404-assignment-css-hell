@@ -1,0 +1,110 @@
+body {
+    margin-left: 1%;
+    padding: 0;
+    text-align: justify;
+  }
+
+#header {
+  margin-top: -25pt;
+  color: rgb(31, 103, 175);
+  font-size: xx-large;
+  font-style: normal;
+  height: 60pt;
+  width: 100%;
+  background-color: #cce4ff;
+  background: radial-gradient(circle,#c2d1e3, rgb(186, 228, 238) 20%, #cce4ff 100%);
+  z-index: 1;
+  text-align: center;
+}
+
+.bar {
+    color:rgb(99, 39, 92);
+    width: 100%; 
+    height: 26pt;
+    font-size: x-large;
+    margin-top: 1pt;
+    background-color: rgb(210, 192, 208); 
+    overflow-x: hidden;  
+    word-spacing: 44pt; 
+    text-align:center;
+}
+#bar li a:hover {
+    display: inline-block;  
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+.bar2 {
+    color:rgb(99, 39, 92);
+    width: 100%; 
+    height: 26pt;
+    font-size: x-large;
+    margin-bottom: 1pt;
+    background-color: rgb(210, 192, 208);  
+    overflow-x: hidden;  
+    word-spacing: 44pt; 
+    text-align:center;
+}
+#bar2 li a:hover {
+    display: inline-block;  
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+span,
+li {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-size: 120%;
+}
+
+#Who,#Pro,#What{
+    color:darkslategrey;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+}
+#Import{color:rgba(69, 82, 42, 0.582);
+    font-size: x-large;
+}
+#Sk,#In{
+    color:darkslategrey;
+    font-size: large;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.right-box {
+    background: #e2e3e4;
+    float: right;
+    text-align: center;
+    box-shadow: -10px -10px 3px;
+    margin-right: 1%;
+    margin-top: 1%;
+
+}
+
+.image {
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 25%;
+    height: 20%;
+    border-radius: 5px;
+  }
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+.footer {
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
