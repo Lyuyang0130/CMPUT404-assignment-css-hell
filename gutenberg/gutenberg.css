@@ -8,11 +8,12 @@ body{
 
 p {
     text-indent: 1em;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    color:darkslategrey
     }
 p.poem {
-    text-indent: 0%;
+    text-indent: 1em;
     margin-left: 10%;
     font-size: 100%;
     margin-top: 1em;
@@ -39,12 +40,25 @@ p.asterism {
 
 h1,h2,h3,h4,h5{
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
+    font-style: italic;
+    font-weight: bold;
     line-height: 1.5;
     margin-top: 0.5em;
     margin-bottom: 0.5em
 }
+
+h1 {
+    color: purple;
+    font-size: 275%;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0
+    }
+
+h2 {
+    color: rebeccapurple;
+    font-size: 125%;
+    }
 
 hr {
     width: 70%;
@@ -73,6 +87,19 @@ table{
 img{
     width: 100%;
 }
+
+figure {
+    text-align: center;
+    display: block;
+    border: 0;   
+}
+
+figcaption{
+    color:black;
+    background-color: rgb(228, 219, 183);
+    text-align: center; 
+}
+
 div.chapter {
     text-align: center;
     page-break-before: always;

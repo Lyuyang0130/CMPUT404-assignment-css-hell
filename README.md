@@ -17,9 +17,11 @@ Change of part one
 Still keep original css inside html, but apply a new css file called gutenberg css for all three htmls
 Change the background color to be yellowlike: hsl(39, 81%, 90%)
 Change the font to be serif
-Change the margin and image part
-Change the image path to be inside the folder gutenberg, add images captions
-Make the chapters table on center
+Change the image path to be inside the folder gutenberg, add images captions with background color and rgb(228, 219, 183) and font color black
+Change the headers to be always text center, and for header 1, and for all headers, the font is italic, and make them bold for h1, make the color to be purple, for h2, make the color to be rebeccapurple, change the relative size of h1 and h2
+Change the paragraphs to be indent 1em, change the paragraphs margin-top and bottom to be 0.3em, change the words color to be darkslategrey, which can make it looks more paper-like.
+
+
 
 Citation
 ========
